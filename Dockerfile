@@ -10,4 +10,4 @@ RUN apk --no-cache --no-progress add ca-certificates nginx && \
 
 EXPOSE 80
 
-CMD ["/usr/sbin/nginx" "-c" "/app/nginx.conf"]
+CMD ["/usr/sbin/nginx", "-c", "/app/nginx.conf"]
