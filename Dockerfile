@@ -10,4 +10,4 @@ ADD nginx.conf /app/
 
 EXPOSE 80
 
-CMD ["/usr/sbin/nginx", "-g", "daemon off;", "-c", "/app/nginx.conf"]
+CMD ["/usr/sbin/nginx", "-c", "/app/nginx.conf"]
